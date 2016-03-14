@@ -1,6 +1,6 @@
 {
   "name": "rbo-spin",
-  "version": "0.0.1-beta",
+  "version": "0.0.1",
   "description": "An angular 1.5 implementation of spin.js",
   "main": "rbo-spin.js",
   "scripts": {
