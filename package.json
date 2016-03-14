@@ -1,0 +1,52 @@
+{
+  "name": "rbo-spin",
+  "version": "0.0.1-beta",
+  "description": "An angular 1.5 implementation of spin.js",
+  "main": "rbo-spin.js",
+  "scripts": {
+    "test": "karma start",
+    "prepublish": "npm run build",
+    "build": "webpack --config webpack/webpack.config.js --bail",
+    "preexample": "npm run build",
+    "example": "webpack --config webpack_example/webpack.example.js --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bovandersteene/rbo-spin.git"
+  },
+  "keywords": [
+    "spin",
+    "spin.js",
+    "angular"
+  ],
+  "author": "Bo Vandersteene",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bovandersteene/rbo-spin/issues"
+  },
+  "engines": {
+    "node": ">=5",
+    "npm": ">=3"
+  },
+  "homepage": "https://github.com/bovandersteene/rbo-spin#readme",
+  "devDependencies": {
+    "browser-sync": "^2.11.1",
+    "browser-sync-webpack-plugin": "^1.0.1",
+    "css-loader": "^0.23.1",
+    "file-loader": "^0.8.5",
+    "html-webpack-plugin": "^2.10.0",
+    "npm-sass": "^1.1.0",
+    "path": "^0.12.7",
+    "raw-loader": "^0.5.1",
+    "sass-loader": "^3.2.0",
+    "style-loader": "^0.13.0",
+    "ts-loader": "0.8.1",
+    "typescript": "1.8.7",
+    "webpack": "1.12.14"
+  },
+  "dependencies": {
+    "angular": "1.5.0",
+    "jquery": "2.2.1",
+    "spin": "0.0.1"
+  }
+}

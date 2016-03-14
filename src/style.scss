@@ -1,0 +1,11 @@
+rbo-spin{
+  height: 100VH;
+  width: 100VW;
+  display: block;
+  position: fixed;
+
+  .spinner{
+    top: 50%
+    bottom: 50%
+  }
+}

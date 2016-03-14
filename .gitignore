@@ -1,0 +1,7 @@
+node_modules/
+.idea/
+out/
+typings/
+reports/
+dist/
+*.log
