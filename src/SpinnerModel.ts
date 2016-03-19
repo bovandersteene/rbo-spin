@@ -16,7 +16,6 @@ export class SpinnerModel implements ISpinnerModel {
 
     constructor(private document: IDocumentService) {
         this.element = document.find("rbo-spin");
-        this.start();
     }
 
     public start(): void {

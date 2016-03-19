@@ -1,8 +1,8 @@
 {
   "name": "rbo-spin",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "An angular 1.5 implementation of spin.js",
-  "main": "rbo-spin.js",
+  "main": "dist/rbo-spin.js",
   "scripts": {
     "test": "karma start",
     "prepublish": "npm run build",
